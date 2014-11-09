@@ -1,0 +1,2 @@
+Polynomial Regression:
+http://www.utstat.utoronto.ca/reid/sta414/Rsession-polys.pdf
