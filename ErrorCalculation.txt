@@ -1,0 +1,30 @@
+1. Prediction Error Calculation:
+   + true positive (TP)
+     eqv. with hit
+   + true negative (TN)
+     eqv. with correct rejection
+   + false positive (FP)
+     eqv. with false alarm, Type I error
+   + false negative (FN)
+     eqv. with miss, Type II error
+   + sensitivity or true positive rate (TPR)
+     eqv. with hit rate, recall
+     TPR = TP/P = TP/ (TP + FN)
+   + specificity (SPC) or True Negative Rate
+     SPC = TN/N = TN/(FP + TN) 
+   + precision or positive predictive value (PPV)
+     PPV = TP/(TP + FP)
+   + negative predictive value (NPV)
+     NPV = TN/(TN + FN)
+   + fall-out or false positive rate (FPR)
+     FPR = FP/N = FP/ (FP + TN)
+   + false discovery rate (FDR)
+     FDR = FP/(FP + TP) = 1 - PPV 
+   + false negative rate (FNR)
+     FNR = FN/(FN + TP) = 1 - TPR 
+   + accuracy (ACC)
+     ACC = (TP + TN)/(P + N)
+   + F1 score : Is the harmonic mean of precision and sensitivity( Recall )
+     F1 = 2*TP/(2*TP + FP + FN)
+   + Matthews correlation coefficient (MCC)
+     (TP * TN - FP * FN)/sqrt((TP+FP) * ( TP + FN ) * ( TN + FP ) * ( TN + FN ))
