@@ -29,3 +29,8 @@
    + Matthews correlation coefficient (MCC)
      (TP * TN - FP * FN)/sqrt((TP+FP) * ( TP + FN ) * ( TN + FP ) * ( TN + FN ))
 Ref: http://en.wikipedia.org/wiki/Precision_and_recall
+
+2. Continuous Data:
+   + Mean Square Error  ( sensitive to outliers )
+   + RMSE ( Root Mean Square Error )
+   + Median Absolute Deviation: absolute distance of the Predicted vs Truth
