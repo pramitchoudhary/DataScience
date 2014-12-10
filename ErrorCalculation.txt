@@ -34,3 +34,12 @@ Ref: http://en.wikipedia.org/wiki/Precision_and_recall
    + Mean Square Error  ( sensitive to outliers )
    + RMSE ( Root Mean Square Error )
    + Median Absolute Deviation: absolute distance of the Predicted vs Truth
+   
+3. If one is evaluating missed positives then looking at Recall(Sensitivity) rate of the data would be a good idea.
+
+4. If one is evaluating the negatives which got called positives then Specficity( Precision ) rate of the data 
+   would be a good idea.
+
+5. Accuracy gives equal weightage to false +ves and -ves. 
+
+6. If one has Multi-class data then measuring Concordance (kappa coefficient: for calucating inter-class agreement) 
